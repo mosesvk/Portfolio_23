@@ -12,19 +12,6 @@ export default function Home() {
         <title>Moses Portfolio</title>
       </Head>
 
-      {/* Header  */}
-
-      {/* Hero */}
-
-      {/* About  */}
-
-      {/* Experience  */}
-      
-      {/* Skills  */}
-
-      {/* Projects  */}
-
-      {/* Contact  */}
       
     </>
   )

@@ -11,21 +11,7 @@ export default function Home() {
       <Head>
         <title>Moses Portfolio</title>
       </Head>
-
-      {/* Header  */}
-
-      {/* Hero */}
-
-      {/* About  */}
-
-      {/* Experience  */}
-      
-      {/* Skills  */}
-
-      {/* Projects  */}
-
-      {/* Contact  */}
-      
+      <h1 className='text-red-500'>Lets build an awesome portfolio</h1>
     </>
   )
 }
