@@ -50,10 +50,7 @@ const Header = () => {
         animate={{
             x: 0,
             opacity: 1,
-            scale: 1.25
-        }}
-        transition={{
-            duration: 1
+            scale: 1
         }}
       className='flex flex-row items-center text-gray-300 cursor-pointer'>
         <SocialIcon

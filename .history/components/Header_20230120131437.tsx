@@ -50,7 +50,7 @@ const Header = () => {
         animate={{
             x: 0,
             opacity: 1,
-            scale: 1.25
+            scale: 1
         }}
         transition={{
             duration: 1
