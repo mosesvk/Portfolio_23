@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { use } from 'react';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import BackgroundCircles from './BackgroundCircles';
 
@@ -18,7 +18,7 @@ const Hero = (props: Props) => {
   return (
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
       <BackgroundCircles />
-      <h1>
+      <h1 className='p-0'>
         <span>{text}</span>
         <Cursor cursorColor='#F7ABBA' />
       </h1>

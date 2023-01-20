@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { use } from 'react';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import BackgroundCircles from './BackgroundCircles';
 
