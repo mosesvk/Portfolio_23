@@ -3,7 +3,7 @@ import { SocialIcon } from 'react-social-icons';
 
 const Header = () => {
   return (
-    <header className='sticky top-0 p-5 flex items-start justify-between mx-auto z-20 xl:items-center'>
+    <header>
       <div className='flex flex-row items-center'>
         {/* Social Icons - react_social_icons  */}
         <SocialIcon
@@ -25,18 +25,15 @@ const Header = () => {
         />
       </div>
 
-      <div className='flex flex-row items-center text-gray-300 cursor-pointer'>
-        <SocialIcon
-          className='cursor-pointer'
-          network='email'
-          fgColor='gray'
-          bgColor='transparent'
-        />
-
-        <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in Touch
-        </p>
-          
-      </div>
+      <div>
+        <SocialIcon 
+            className='cursor-pointer'
+            network='email'
+            fgColor='gray'
+            bgColor='transparent'/>
+        </div>
+        
+        <p className="uppercase">Get in Touch</p>
     </header>
   );
 };

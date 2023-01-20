@@ -33,9 +33,9 @@ const Header = () => {
           bgColor='transparent'
         />
 
-        <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in Touch
+        <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>
         </p>
-          
+          Get in Touch
       </div>
     </header>
   );
