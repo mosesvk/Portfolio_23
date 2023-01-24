@@ -24,7 +24,7 @@ export default function Home() {
       
       {/* About  */}
       <section id="about">
-        <About />
+        
       </section>
 
       {/* Experience  */}

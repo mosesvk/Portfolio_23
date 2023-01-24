@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from 'next/link';
+import React from 'react';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import BackgroundCircles from './BackgroundCircles';
 
@@ -24,29 +24,20 @@ const Hero = (props: Props) => {
         src='https://images.unsplash.com/photo-1492632736198-174776a820f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWFsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60'
         alt='profile'
       />
-
-      <div className='z-20'>
-        <h2 className='text-sm uppercase text-slate-400 tracking-[15px]'>
+      <div>
+        <h2 className='text-sm uppercase text-gray-500 tracking-[15px]'>
           Software Engineer
         </h2>
         <h1 className='text-5xl lg:text-6xl font-semibold scroll-px-10'>
           <span className='mr-3'>{text}</span>
-          <Cursor cursorColor='#F5EDCE' />
+          <Cursor cursorColor='#F7ABBA' />
         </h1>
 
         <div className='pt-5'>
-          <Link href='#about'>
-            <button className='heroButton'>About</button>
-          </Link>
-          <Link href='#experience'>
-            <button className='heroButton'>Experience</button>
-          </Link>
-          <Link href='#skills'>
-            <button className='heroButton'>Skills</button>
-          </Link>
-          <Link href='#projects'>
-            <button className='heroButton'>Projects</button>
-          </Link>
+          <button className='heroButton'>About</button>
+          <button className='heroButton'>Experience</button>
+          <button className='heroButton'>Skills</button>
+          <button className='heroButton'>Projects</button>
         </div>
       </div>
     </div>
