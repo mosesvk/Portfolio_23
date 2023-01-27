@@ -23,7 +23,7 @@ export default function Home() {
       </section>
 
       {/* About  */}
-      <section id='about' className='snap-center bg-[rgb(48,53,59)]'>
+      <section id='about' className='snap-center bg-[rgb(68,75,82)]'>
         <About />
       </section>
 
@@ -34,7 +34,6 @@ export default function Home() {
       {/* Projects  */}
 
       {/* Contact  */}
-      
     </div>
   );
 }

@@ -19,7 +19,7 @@ const Hero = (props: Props) => {
 
   return (
     <div className='h-screen flex flex-col space-y-8 items-center  justify-center text-center overflow-hidden'>
-      <BackgroundCircles />
+      {/* <BackgroundCircles /> */}
 
       <motion.img
         initial={{
@@ -56,24 +56,10 @@ const Hero = (props: Props) => {
         >
           Software Engineer
         </motion.h2>
-        <motion.h1
-          initial={{
-            x: -200,
-            opacity: 0
-          }}
-          transition={{
-            duration: 1.5
-          }}
-          whileInView={{
-            opacity: 1,
-            x: 0
-          }}
-          viewport={{ once: true }}
-          className='text-5xl lg:text-6xl font-semibold scroll-px-10'
-        >
+        <h1 className='text-5xl lg:text-6xl font-semibold scroll-px-10'>
           <span className='mr-3'>{text}</span>
           <Cursor cursorColor='#F5EDCE' />
-        </motion.h1>
+        </h1>
 
         <motion.div
           initial={{

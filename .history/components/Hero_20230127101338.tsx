@@ -19,7 +19,7 @@ const Hero = (props: Props) => {
 
   return (
     <div className='h-screen flex flex-col space-y-8 items-center  justify-center text-center overflow-hidden'>
-      <BackgroundCircles />
+      {/* <BackgroundCircles /> */}
 
       <motion.img
         initial={{
@@ -40,55 +40,15 @@ const Hero = (props: Props) => {
       />
 
       <div className='z-20'>
-        <motion.h2
-          initial={{
-            x: 200,
-            opacity: 0
-          }}
-          transition={{
-            duration: 1.5
-          }}
-          whileInView={{
-            opacity: 1,
-            x: 0
-          }}
-          className='text-sm uppercase text-slate-400 tracking-[15px]'
-        >
+        <h2 className='text-sm uppercase text-slate-400 tracking-[15px]'>
           Software Engineer
-        </motion.h2>
-        <motion.h1
-          initial={{
-            x: -200,
-            opacity: 0
-          }}
-          transition={{
-            duration: 1.5
-          }}
-          whileInView={{
-            opacity: 1,
-            x: 0
-          }}
-          viewport={{ once: true }}
-          className='text-5xl lg:text-6xl font-semibold scroll-px-10'
-        >
+        </h2>
+        <h1 className='text-5xl lg:text-6xl font-semibold scroll-px-10'>
           <span className='mr-3'>{text}</span>
           <Cursor cursorColor='#F5EDCE' />
-        </motion.h1>
+        </h1>
 
-        <motion.div
-          initial={{
-            x: 200,
-            opacity: 0
-          }}
-          transition={{
-            duration: 1.5
-          }}
-          whileInView={{
-            opacity: 1,
-            x: 0
-          }}
-          className='pt-5'
-        >
+        <div className='pt-5'>
           <Link href='#about'>
             <button className='heroButton'>About</button>
           </Link>
@@ -101,7 +61,7 @@ const Hero = (props: Props) => {
           <Link href='#projects'>
             <button className='heroButton'>Projects</button>
           </Link>
-        </motion.div>
+        </div>
       </div>
     </div>
   );

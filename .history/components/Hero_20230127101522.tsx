@@ -19,7 +19,7 @@ const Hero = (props: Props) => {
 
   return (
     <div className='h-screen flex flex-col space-y-8 items-center  justify-center text-center overflow-hidden'>
-      <BackgroundCircles />
+      {/* <BackgroundCircles /> */}
 
       <motion.img
         initial={{

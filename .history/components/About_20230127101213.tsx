@@ -42,7 +42,7 @@ const About = (props: Props) => {
                     I love to code and build. 
                 </p>
             </div>
-        </motion.div>
+        </div>
     )
 }
 

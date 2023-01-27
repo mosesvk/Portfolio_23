@@ -14,16 +14,16 @@ export default function Home() {
       <Head>
         <title>Moses Portfolio</title>
       </Head>
-      
+
       <Header />
 
       {/* Hero */}
-      <section id='hero' className='snap-start bg-[rgb(36,36,36)]'>
+      <section id='hero' className='snap-center'>
         <Hero />
       </section>
 
       {/* About  */}
-      <section id='about' className='snap-center bg-[rgb(48,53,59)]'>
+      <section id='about' className='snap-center'>
         <About />
       </section>
 
@@ -34,7 +34,6 @@ export default function Home() {
       {/* Projects  */}
 
       {/* Contact  */}
-      
     </div>
   );
 }
