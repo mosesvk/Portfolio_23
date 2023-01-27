@@ -29,7 +29,7 @@ export default function Home() {
       </section>
 
       {/* Experience  */}
-      <section id='experience' className='snap-center bg-[rgb(36,36,36)]'>
+      <section id='experience' className='snap-center'>
         <Experience />
       </section>
       {/* Skills  */}

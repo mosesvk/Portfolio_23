@@ -5,7 +5,6 @@ import styles from '@/styles/Home.module.css';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
-import Experience from '@/components/Experience';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -29,9 +28,7 @@ export default function Home() {
       </section>
 
       {/* Experience  */}
-      <section id='experience' className='snap-center bg-[rgb(36,36,36)]'>
-        <Experience />
-      </section>
+
       {/* Skills  */}
 
       {/* Projects  */}
