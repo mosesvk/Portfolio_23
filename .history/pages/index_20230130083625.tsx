@@ -30,14 +30,14 @@ export default function Home() {
       </section>
 
       {/* Experience  */}
-      <section id='experience' className='snap-center bg-[rgb(36,36,36)]'>
+      {/* <section id='experience' className='snap-center bg-[rgb(36,36,36)]'>
         <Experience />
-      </section>
+      </section> */}
 
       {/* Skills  */}
-      <section id='skills' className='snap-center bg-[rgb(57,55,47)]'>
+      {/* <section id='skills' className='snap-center bg-[rgb(57,55,47)]'>
         <Skills />
-      </section>
+      </section> */}
 
       {/* Projects  */}
 

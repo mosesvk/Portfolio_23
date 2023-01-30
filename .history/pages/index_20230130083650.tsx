@@ -20,24 +20,24 @@ export default function Home() {
       <Header />
 
       {/* Hero */}
-      <section id='hero' className='snap-start bg-[rgb(36,36,36)]'>
+      {/* <section id='hero' className='snap-start bg-[rgb(36,36,36)]'>
         <Hero />
-      </section>
+      </section> */}
 
       {/* About  */}
-      <section id='about' className='snap-center bg-[rgb(57,55,47)]'>
+      {/* <section id='about' className='snap-center bg-[rgb(57,55,47)]'>
         <About />
-      </section>
+      </section> */}
 
       {/* Experience  */}
-      <section id='experience' className='snap-center bg-[rgb(36,36,36)]'>
+      {/* <section id='experience' className='snap-center bg-[rgb(36,36,36)]'>
         <Experience />
-      </section>
+      </section> */}
 
       {/* Skills  */}
-      <section id='skills' className='snap-center bg-[rgb(57,55,47)]'>
+      {/* <section id='skills' className='snap-center bg-[rgb(57,55,47)]'>
         <Skills />
-      </section>
+      </section> */}
 
       {/* Projects  */}
 
