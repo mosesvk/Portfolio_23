@@ -3,7 +3,7 @@ import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
-  return <section className='relative w-full h-screen mx-auto'>Hero</section>;
+  return <section className='bg-hero-pattern relative w-full h-screen mx-auto'>Hero</section>;
 };
 
 export default Hero;
