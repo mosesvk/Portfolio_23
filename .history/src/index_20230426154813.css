@@ -35,11 +35,11 @@
 
 .green-gradient {
   background: #6a917a;
-  background: linear-gradient(-90deg, #6a917a 0%, rgba(51, 80, 65, 0) 100%);
+  background: linear-gradient(-90deg, #6a917a 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #6a917a 0%,
-    rgba(51, 80, 65, 0) 100%
+    #804dee 0%,
+    rgba(60, 51, 80, 0) 100%
   );
 }
 
