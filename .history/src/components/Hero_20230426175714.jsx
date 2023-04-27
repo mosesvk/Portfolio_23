@@ -12,16 +12,12 @@ const Hero = () => {
           <div className='w-5 h-5 rounded-full bg-[#6a917a]' />
           <div className='w-1 sm:h-80 h-40 green-gradient' />
         </div>
-
-        <div>
-          <h1 className={`${styles.heroHeadText} text-[#6a917a]`}>
-            <span className='text-white'>Moses </span> K.
-          </h1>
-          <p className={`${styles.heroSubText} text-[#FFF6BF]`}>Software Developer</p>
-        </div>
       </div>
 
-      <ComputersCanvas />
+      <div>
+        <h1 className={`${styles.heroHeadText} text-[#6a917a]`}><span className='text-[#FFF6BF]'>Moses</span> Kaumatule</h1>
+        <p>Software Developer</p>
+      </div>
     </section>
   );
 };

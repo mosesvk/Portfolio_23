@@ -20,8 +20,6 @@ const Hero = () => {
           <p className={`${styles.heroSubText} text-[#FFF6BF]`}>Software Developer</p>
         </div>
       </div>
-
-      <ComputersCanvas />
     </section>
   );
 };

@@ -14,14 +14,12 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-[#6a917a]`}>
-            <span className='text-white'>Moses </span> K.
-          </h1>
-          <p className={`${styles.heroSubText} text-[#FFF6BF]`}>Software Developer</p>
-        </div>
+        <h1 className={`${styles.heroHeadText} text-[#6a917a]`}><span className='text-[#FFF6BF]'>Moses</span> Kaumatule</h1>
+        <p>Software Developer</p>
+      </div>
       </div>
 
-      <ComputersCanvas />
+
     </section>
   );
 };
