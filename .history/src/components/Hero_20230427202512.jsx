@@ -21,7 +21,6 @@ const Hero = () => {
           <p className={`${styles.heroSubText} text-tertiary`}>
             <Typewriter
               words={['Software Engineer', 'Father', 'Programmer']}
-              loop={7}
               cursor
               cursorStyle='_'
               typeSpeed={70}

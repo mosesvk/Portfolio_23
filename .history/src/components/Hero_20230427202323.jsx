@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
-import { Typewriter } from 'react-simple-typewriter';
+import { Typewriter } from 'react-simple-typewriter'
+
 
 const Hero = () => {
   return (
@@ -19,15 +20,7 @@ const Hero = () => {
             <span className='text-white'>Moses </span> K.
           </h1>
           <p className={`${styles.heroSubText} text-tertiary`}>
-            <Typewriter
-              words={['Software Engineer', 'Father', 'Programmer']}
-              loop={7}
-              cursor
-              cursorStyle='_'
-              typeSpeed={70}
-              deleteSpeed={50}
-              delaySpeed={1000}
-            />
+            <Typewriter words={['Software Engineer', 'Father', 'Programmer']} />
           </p>
         </div>
       </div>
