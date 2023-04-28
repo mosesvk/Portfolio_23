@@ -116,7 +116,7 @@ import {
   
   const experiences = [
     {
-      title: "Software Engineer",
+      title: "Software Developer",
       company_name: "CapinCrouse LLP",
       icon: starbucks,
       iconBg: "#383E56",
@@ -130,10 +130,10 @@ import {
     },
     {
       title: "Front-End Engineer",
-      company_name: "Hykio io",
-      // icon: ,
+      company_name: "",
+      icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Feb 2021 - Sep 2021",
+      date: "Jan 2021 - Feb 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,11 +142,11 @@ import {
       ],
     },
     {
-      title: "Software Engineer",
-      company_name: "Devmountain",
+      title: "Web Developer",
+      company_name: "Shopify",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Feb 2021 - July 2021",
+      date: "Jan 2022 - Jan 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,11 +155,11 @@ import {
       ],
     },
     {
-      title: "Business Analyst",
-      company_name: "Clearlink",
+      title: "Full stack Developer",
+      company_name: "Meta",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2020 - Feb 2021",
+      date: "Jan 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

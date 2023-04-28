@@ -20,7 +20,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} text-tertiary`}>
             <Typewriter
-              words={['Software Engineer', 'Programmer', 'Problem Solver']}
+              words={['Software Engineer', 'Father', 'Programmer']}
               loop='false'
               cursor
               cursorStyle='_'

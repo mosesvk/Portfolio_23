@@ -146,7 +146,7 @@ import {
       company_name: "Devmountain",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Feb 2021 - July 2021",
+      date: "Jan 2022 - Jan 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
