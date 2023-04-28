@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 import { Typewriter } from 'react-simple-typewriter';
-import {StarsCanvas} from './index'
 
 const Hero = () => {
   return (
@@ -53,7 +52,7 @@ const Hero = () => {
         </a>
       </div>
 
-      
+      <StarsCanvas />
     </section>
   );
 };

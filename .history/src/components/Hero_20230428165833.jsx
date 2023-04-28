@@ -53,7 +53,7 @@ const Hero = () => {
         </a>
       </div>
 
-      
+      <StarsCanvas />
     </section>
   );
 };
