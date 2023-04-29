@@ -15,10 +15,13 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-mainBackground '>
-
-        <div className='relative z-1 '>
+        <div className='bg-cover bg-no-repeat bg-center'>\
           <Navbar />
+        </div>
+        <div className='relative z-0 '>
+          
           <Hero />
+          <StarsCanvas />
         </div>
         <About />
         <Experience />

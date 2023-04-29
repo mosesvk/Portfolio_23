@@ -17,8 +17,8 @@ const App = () => {
       <div className='relative z-0 bg-mainBackground '>
 
         <div className='relative z-1 '>
-          <Navbar />
           <Hero />
+          <Navbar />
         </div>
         <About />
         <Experience />

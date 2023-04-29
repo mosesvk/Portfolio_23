@@ -15,10 +15,10 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-mainBackground '>
-
         <div className='relative z-1 '>
           <Navbar />
           <Hero />
+          <StarsCanvas />
         </div>
         <About />
         <Experience />
